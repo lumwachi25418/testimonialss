@@ -1,0 +1,26 @@
+@media screen
+{min-width :375px;
+               max-width:1440px;}
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+.container{
+    display:grid;
+    grid-template-column :repeat;
+    padding:10px;
+}
+.grid-item1{
+    width:45em;
+
+    background-color:rgb(75, 7, 75);
+}
+.grid-item2{
+    background-color: hsl(264,72%,74%);
+    width:25em;
+}
+.grid-item3{
+
+}
